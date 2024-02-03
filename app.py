@@ -75,5 +75,14 @@ def main():
 
         st.markdown(df_html, unsafe_allow_html=True)
 
+        st.sidebar.markdown(
+            """
+            <footer style="width: 100%; text-align: center; padding: 1rem 0;">
+                Built in India with <span style="color: red;">&hearts;</span> by <a href="https://www.twitter.com/hi_gaganthakur" target="_blank">Gagan Thakur</a>
+            </footer>
+            """,
+            unsafe_allow_html=True,
+        )
+
 if __name__ == "__main__":
     main()
